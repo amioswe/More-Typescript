@@ -2,7 +2,7 @@ type userRoll="User" | "Modaretor" | "Guest" ;
 
 interface User{
 name:string,
-roll?:userRoll,
+roll:userRoll,
 email:string
 
 }
@@ -22,7 +22,10 @@ const fulldetails:Modarator={
 
 name:'Amiodas',
 email:'sfdfgdgg',
-paymentusers:['dyudhsdh','jijwdjpj','jwh'];
+paymentusers:['dyudhsdh','jijwdjpj','jwh'],
+
+roll:'User'
+
 
 
 }

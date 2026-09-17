@@ -1,5 +1,5 @@
-interface Status<T>{
- data:T;
+interface Status<amio>{
+ data:amio;
  name:string;
 }
 
